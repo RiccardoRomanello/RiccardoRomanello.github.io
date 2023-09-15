@@ -2893,12 +2893,27 @@ input, select, textarea {
 		color: #18bfef;
 	}
 
+	ul.icons li a.icon.aicons:hover:before {
+		color: #18bfef;
+		font-family: 'Academicons' !important;
+	}
+
 	ul.icons.alt li .icon:before {
 		box-shadow: inset 0 0 0 2px #eeeeee;
 	}
 
+	ul.icons.alt li .icon.aicons:before {
+		box-shadow: inset 0 0 0 2px #eeeeee;
+		font-family: 'Academicons' !important;
+	}
+
 	ul.icons.alt li a.icon:hover:before {
 		box-shadow: inset 0 0 0 2px #18bfef;
+	}
+
+	ul.icons.alt li a.icon.aicons:hover:before {
+		box-shadow: inset 0 0 0 2px #18bfef;
+		font-family: 'Academicons' !important;
 	}
 
 /* Section/Article */
